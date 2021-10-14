@@ -1,0 +1,264 @@
+	body{
+	 background-image: url(../Iconos/fondoparatodas.jpeg);
+	 background-size:100% 100% ;
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+	 height: 135vmax;
+}
+
+body::-webkit-scrollbar{
+     width:0.5vmax;
+     height: 0.5vmax;
+
+}
+body::-webkit-scrollbar-thumb{
+	background:black;
+	border-radius: 0.5vmax;
+}
+
+/* estilos para nuestro menu principal"nav" */
+
+ul,ol{
+	list-style:none;
+}
+/* al decir li a decimos que todos los elementos a que esten dentro de li que esten dentro de nav seran los editados */
+
+.nav {
+	
+	position:fixed;
+	z-index: 1000;
+ 	left:20vmax;
+	}
+.nav li a{
+
+	font-weight: bold;
+	font-family:"ink free";
+	font-size: 2vmax;
+	background-color: #EC7063 ;
+	color:#212F3C   ;        /* colocamos color de fuente */
+	text-decoration:none; /* quitamos el subrayado que viene ya predeterminado */
+	padding:1vmax 1vmax; /* le implementamos el tamaño de relleno de los cuadros */
+	display:block;/*para que no se peguen los elementos los cuales venian en linea predeterminados */
+	border:#9F4A42  0.2vmax solid;/* bordes en el menu */ 
+}
+
+
+/* hover es para que cuando pasemos el mouse en este caso se cambie el fondo al color especificado */
+.nav li a:hover {
+	background-color:#ECF0F1;
+}
+
+
+/* con .nav > li le estamos diciendo que editaremos los li que esten directos de nav */
+.nav > li {
+	float: left ;/* para que los submenus  fluyan hacia la derecha*/
+}
+
+/* ahora ponemos la propiedad display para que desaparezcan los submenus  */
+.nav li ul{
+	display:none;
+	position:absolute;/*ya que el tamaño del submenu va a estar conforme al menu */
+}
+
+
+/* cuando pasemos el mouse por los menus sucedera lo especificado*/
+.nav li:hover >ul{
+	display:block;
+}
+
+.flechita
+{
+	position: fixed;
+	background-color: #ff7251 ;
+	opacity: 100%;
+	top: 1vmax;
+	right: 93.5vmax;
+	width : 5vmax;
+	height: 5vmax; 
+	border-radius: 0.5vmax;
+}
+
+.flechasa
+{
+width: 5vmax;
+height: 5vmax;
+}
+
+.icono
+{
+	z-index: 100;
+	position: relative;
+	opacity: 100%;
+	top: 11vmax;
+	right: -74vmax;
+	width : 5vmax;
+	height: 5vmax; 
+	border-radius: 0.5vmax;
+}
+
+.iconaso
+{
+width: 10vmax;
+height: 15vmax;
+}
+
+.icono2
+{
+	z-index: 100;
+	position: relative;
+	opacity: 100%;
+	top: 22vmax;
+	right: -56vmax;
+	width : 5vmax;
+	height: 5vmax; 
+	border-radius: 0.5vmax;
+}
+
+.iconaso2
+{
+width: 10vmax;
+height: 15vmax;
+}
+
+.icono3
+{
+	z-index: 100;
+	position: relative;
+	opacity: 100%;
+	top: 57vmax;
+	right: -74vmax;
+	width : 5vmax;
+	height: 5vmax; 
+	border-radius: 0.5vmax;
+}
+
+.iconaso3
+{
+width: 10vmax;
+height: 15vmax;
+}
+
+.caja2
+{
+
+	background-color: #ffca7b  ;
+	opacity: 100%;
+	position: relative;
+	top: -17vmax;
+	right: -31vmax;
+	width : 34vmax;
+	height: 35vmax; 
+	border-radius: 2vmax;
+	font-size: 2.5vmax;
+	font-family: lucida handwriting;
+	text-align: center;
+
+}
+
+.caja1
+{
+	background-color: #ffca7b  ;
+	opacity: 100%;
+	position: relative;
+	top: -19vmax;
+	right: -13.5vmax;
+	width : 70vmax;
+	height: 10vmax; 
+	border-radius: 2vmax;
+	font-size: 3vmax;
+	font-family: lucida handwriting;
+	text-align: center;
+}
+
+.caja3
+{
+	background-color: #ffca7b  ;
+	opacity: 100%;
+	position: relative;
+	top: -15vmax;
+	right: -13.5vmax;
+	width : 70vmax;
+	height: 35vmax; 
+	border-radius: 2vmax;
+	font-size: 2.5vmax;
+	font-family: lucida handwriting;
+	text-align: center;
+}
+
+
+.textoing
+{
+	position: relative;
+	top: -81vmax;
+	right: -35vmax;
+	width : 27vmax;
+	height: 30vmax; 
+	font-size: 1.6vmax;
+	font-family: Ink free;
+}
+
+.textoprep
+{
+	position: relative;
+	top: -71vmax;
+	right: -18vmax;
+	width : 60vmax;
+	height: 30vmax; 
+	font-size: 1.6vmax;
+	font-family: Ink free;
+}
+
+.imagenReceta
+{
+	z-index: 100;
+	position: relative;
+	opacity: 100%;
+	top: -70vmax;
+	right: -28vmax;
+	width : 40vmax;
+	height: 26vmax; 
+}
+
+.imagenrecetasa
+
+{
+width : 100%;
+height: 100%;
+border-radius: 1.5vmax;
+}
+
+.iconopisadaz
+{
+width: 15vmax;
+height: 20vmax;
+}
+
+.pisadaz
+{
+	z-index: 100;
+	position: relative;
+	opacity: 100%;
+	top: 20vmax;
+	right: -68vmax;
+	width : 7vmax;
+	height: 7vmax; 
+	border-radius: 0.5vmax;
+}
+
+.iconoflecha
+{
+width: 15vmax;
+height: 20vmax;
+}
+
+.flecharra
+{
+	z-index: 100;
+	position: relative;
+	opacity: 100%;
+	top: 77vmax;
+	right: -16vmax;
+	width : 5vmax;
+	height: 5vmax; 
+	border-radius: 0.5vmax;
+}

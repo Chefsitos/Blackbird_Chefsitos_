@@ -1,0 +1,303 @@
+header{
+	background-image: url("../Iconos/espero.jpeg");
+	background-size:100% 100% ;
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+	 
+	  }
+	
+.icono{
+	position:absolute;
+	z-index:100;
+	left:48%;
+	bottom:-2vmax;
+	font-size:6vmax;
+	animation: bajar-subir 1s ease infinite;
+}
+.icono .icon-chevron-down-solid{
+	color:black;
+
+}
+
+.uno {
+/*background-image: url("../Iconos/virginia.jpeg");
+background-size:100% 100%;
+	 background-repeat: no-repeat;*/
+	 background:pink;
+	z-index:-10;
+}
+
+.dos {
+	/*
+background: rgb(221,139,130);
+background: radial-gradient(circle, rgba(221,139,130,1) 0%, rgba(99,40,82,1) 100%);*/
+	z-index:-10;
+	background-image: url("../Iconos/home2.jpeg");
+	background-size:100% 100% ;
+}
+/* clases de fullpage js >flechas de slide*/
+.fp-controlArrow.fp-next,.fp-controlArrow.fp-prev{
+	top:90%;
+}
+
+
+footer{
+	background-image:url("../Iconos/animaux.png");
+	background-size:100% 100% ;
+	 background-repeat: no-repeat;
+	z-index:-10;
+		}
+
+.producto{
+	position:relative;
+	left:5%;
+	top:20%;
+}
+.contenedor-texto{
+	display:inline-block;
+	position:relative;
+ 	left:39%;
+  top:-20vmax;
+}
+.contenedor-texto .titulo {
+     font-size: 7vmax;
+     font-weight: normal;
+     margin-bottom: 40px;
+     color:#000 ;
+}
+
+.contenedor-texto .receta {
+     font-weight: bold;
+     color: brown;
+     font-style: normal;
+}
+.empresa{
+position:relative;
+left:44vmax;
+top:6vmax;
+
+}
+.Nempresa>p{
+	font-size:100px;
+	font-weight:bold;
+	position:relative;
+	display:inline-block;
+	left:37vmax;
+	top:2vmax;
+}
+
+.icon-instagram{
+ font-size:2vmax;
+	font-weight:bold;
+	position:relative;
+	display:inline-block;
+	left:46vmax;
+	top:-3.2vmax;
+
+}
+
+.icon-twitter{
+ font-size:2vmax;
+	font-weight:bold;
+	position:relative;
+	display:inline-block;
+	left:50vmax;
+	top:-6vmax;
+
+}
+
+
+}
+/*
+.explic{
+	width:300px;
+	height:350px;
+	display:inline-block;
+	position:relative;
+    left:60%;
+    top:-250px;
+    font-weight:bold;
+    font-family:"Verdana";
+    font-size:20px;
+    color:#05031A   ;
+    border:black 4px dashed;
+  
+}*/
+.p1{
+	text-align:center;
+}
+/*
+.p1{text-align:center;
+font-size:20px;
+  border:black  2px solid;
+  background:#F6ABA3 ;
+}
+  .p4,.p2,.p3{  border:black  2px solid;
+  	background:#F6ABA3;
+  }
+  */
+.icon-cooking-2 ,.icon-chef, .icon-magnifying-glass{ 
+font-size:25px;
+ }
+
+
+
+.icono-instagram{
+	display:inline-block;
+	position:relative;
+	bottom:-20vmax;
+	left:45vmax;
+	
+
+
+}
+/*
+.producto2{
+	position:relative;
+	top:-40px;
+	left:40px; 
+	z-index:100;
+
+}
+.chicas{
+	width:950px;
+	height:650px;
+}
+.memo{
+	position:relative;
+	top:-270px;
+	left:10%;
+	z-index:900;
+
+}
+*/
+.icono-instagram .icon-instagram{
+	font-size:100px;
+}
+.icono-correo{
+	display:inline-block;
+	position:relative;
+	bottom:-16vmax;
+	left:-1vmax;
+}
+
+.icono-correo .icon-gmail{
+	font-size:100px;
+}
+
+
+/* estilos para nuestro menu principal"nav" */
+ul,ol{
+	list-style:none;
+}
+/* al decir li a decimos que todos los elementos a que esten dentro de li que esten dentro de nav seran los editados */
+
+ul,ol{
+	list-style:none;
+}
+/* al decir li a decimos que todos los elementos a que esten dentro de li que esten dentro de nav seran los editados */
+
+.nav {
+	align: center;
+	position:fixed;
+	z-index: 1000;
+ 	left:20vmax;
+	}
+.nav li a{
+
+	font-weight: bold;
+	font-family:"ink free";
+	font-size: 2vmax;
+	background-color: #EC7063 ;
+	color:#212F3C   ;        /* colocamos color de fuente */
+	text-decoration:none; /* quitamos el subrayado que viene ya predeterminado */
+	padding:1vmax 1vmax; /* le implementamos el tamaño de relleno de los cuadros */
+	display:block;/*para que no se peguen los elementos los cuales venian en linea predeterminados */
+	border:#9F4A42  0.2vmax solid;/* bordes en el menu */ 
+}
+
+
+/* hover es para que cuando pasemos el mouse en este caso se cambie el fondo al color especificado */
+.nav li a:hover {
+	background-color:#ECF0F1;
+}
+
+
+/* con .nav > li le estamos diciendo que editaremos los li que esten directos de nav */
+.nav > li {
+	float: left ;/* para que los submenus  fluyan hacia la derecha*/
+}
+
+/* ahora ponemos la propiedad display para que desaparezcan los submenus  */
+.nav li ul{
+	display:none;
+	position:absolute;/*ya que el tamaño del submenu va a estar conforme al menu */
+}
+
+
+/* cuando pasemos el mouse por los menus sucedera lo especificado*/
+.nav li:hover >ul{
+	display:block;
+}
+
+a{
+	text-decoration:none;
+	color:#EEE2F6;
+	  }
+/*
+.rainbow-button{
+	width:calc(18vw + 6px);
+	height:calc(6vw + 6px);
+	background-image:linear-gradient(90deg,#00C0FF 0,#FFCF00 49%,#FC4F4F 80%,#00C0FF 100%);
+	border-radius:5px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	text-transform:uppercase;
+	font-size:3vw;
+	font-weight:700;
+	font-family:"Verdana";
+}
+
+
+.rainbow-button:after{content:attr(alt);
+	width:18vw;
+	height:6vw;
+	background-color:#1C2833;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+
+.rainbow-button:hover{
+	animation:slidebg 2s linear infinite
+}
+
+
+.rainbow-button{
+	position:relative;
+	top:80px;
+	bottom:;
+	left:820px; 
+	right:;
+}
+
+
+@keyframes slidebg{to{background-position:20vw}}
+
+
+particles-js{
+	height:100%;
+	width:100%;
+	position:fixed;
+	z-index:-1;
+}
+*/
+
+@keyframes bajar-subir{
+	
+	0% {transform: translateY(20px);
+    25% { transform: translateY(0); 
+    100% {transform:translateY(20px);}
+
