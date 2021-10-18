@@ -15,18 +15,16 @@ ul,ol{
  	left:20vmax;
 	}
 .nav li a{
-
 	font-weight: bold;
 	font-family:"ink free";
 	font-size: 2vmax;
-	background-color: #EC7063 ;
+	background-color: #74B2E8 ;
 	color:#212F3C   ;        /* colocamos color de fuente */
 	text-decoration:none; /* quitamos el subrayado que viene ya predeterminado */
 	padding:1vmax 1vmax; /* le implementamos el tamaño de relleno de los cuadros */
 	display:block;/*para que no se peguen los elementos los cuales venian en linea predeterminados */
-	border:#9F4A42  0.2vmax solid;/* bordes en el menu */ 
+	border:#17173A  0.2vmax solid;/* bordes en el menu */ 
 }
-
 
 /* hover es para que cuando pasemos el mouse en este caso se cambie el fondo al color especificado */
 .nav li a:hover {

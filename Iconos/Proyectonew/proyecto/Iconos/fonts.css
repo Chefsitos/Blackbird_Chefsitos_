@@ -1,0 +1,182 @@
+@font-face {
+  font-family: 'fuentechef';
+  src:  url('fonts/fuentechef.eot?iamrmk');
+  src:  url('fonts/fuentechef.eot?iamrmk#iefix') format('embedded-opentype'),
+    url('fonts/fuentechef.ttf?iamrmk') format('truetype'),
+    url('fonts/fuentechef.woff?iamrmk') format('woff'),
+    url('fonts/fuentechef.svg?iamrmk#fuentechef') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'fuentechef' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pinterest .path1:before {
+  content: "\e92c";
+  color: rgb(203, 32, 39);
+}
+.icon-pinterest .path2:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(241, 242, 242);
+}
+.icon-facebook .path1:before {
+  content: "\e92e";
+  color: rgb(59, 89, 152);
+}
+.icon-facebook .path2:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-twitter:before {
+  content: "\e930";
+}
+.icon-home:before {
+  content: "\e92b";
+}
+.icon-oven:before {
+  content: "\e901";
+}
+.icon-microwave-oven:before {
+  content: "\e902";
+}
+.icon-refrigerator:before {
+  content: "\e903";
+}
+.icon-batidora-batidora:before {
+  content: "\e904";
+}
+.icon-chef:before {
+  content: "\e905";
+}
+.icon-batidora:before {
+  content: "\e900";
+}
+.icon-frying-pan:before {
+  content: "\e906";
+}
+.icon-mixer:before {
+  content: "\e907";
+}
+.icon-pot:before {
+  content: "\e908";
+}
+.icon-cooking:before {
+  content: "\e909";
+}
+.icon-cooking1:before {
+  content: "\e90a";
+}
+.icon-chef1:before {
+  content: "\e90b";
+}
+.icon-cooking-2:before {
+  content: "\e90c";
+}
+.icon-cuisine:before {
+  content: "\e90d";
+}
+.icon-baker:before {
+  content: "\e90e";
+}
+.icon-salt-shaker:before {
+  content: "\e90f";
+}
+.icon-rolling-pin:before {
+  content: "\e910";
+}
+.icon-dough:before {
+  content: "\e911";
+}
+.icon-grater:before {
+  content: "\e912";
+}
+.icon-cooking-1:before {
+  content: "\e913";
+}
+.icon-ladle:before {
+  content: "\e914";
+}
+.icon-knife:before {
+  content: "\e915";
+}
+.icon-olla:before {
+  content: "\e916";
+}
+.icon-chefman:before {
+  content: "\e917";
+}
+.icon-chefman2:before {
+  content: "\e918";
+}
+.icon-utensilios:before {
+  content: "\e919";
+}
+.icon-condimentar:before {
+  content: "\e91a";
+}
+.icon-faucet-solid:before {
+  content: "\e91b";
+}
+.icon-apple-alt-solid:before {
+  content: "\e91c";
+}
+.icon-bacon-solid:before {
+  content: "\e91d";
+}
+.icon-bed-solid:before {
+  content: "\e91e";
+}
+.icon-chevron-down-solid:before {
+  content: "\e91f";
+}
+.icon-coffee-solid:before {
+  content: "\e920";
+}
+.icon-egg-solid:before {
+  content: "\e921";
+}
+.icon-fork-and-knife:before {
+  content: "\e922";
+}
+.icon-fork-and-spoon:before {
+  content: "\e923";
+}
+.icon-gmail:before {
+  content: "\e924";
+  color: #d14836;
+}
+.icon-hamburger-solid:before {
+  content: "\e925";
+}
+.icon-instagram:before {
+  content: "\e926";
+  color: #e4405f;
+}
+.icon-magnifying-glass:before {
+  content: "\e927";
+}
+.icon-pizza-slice-solid:before {
+  content: "\e928";
+}
+.icon-user:before {
+  content: "\e929";
+}
+.icon-utensils-solid:before {
+  content: "\e92a";
+}

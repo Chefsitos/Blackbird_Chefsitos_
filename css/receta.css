@@ -24,7 +24,7 @@ ul,ol{
 /* al decir li a decimos que todos los elementos a que esten dentro de li que esten dentro de nav seran los editados */
 
 .nav {
-	
+	align: center;
 	position:fixed;
 	z-index: 1000;
  	left:20vmax;
