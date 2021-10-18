@@ -32,7 +32,7 @@ background-size:100% 100%;
 background: rgb(221,139,130);
 background: radial-gradient(circle, rgba(221,139,130,1) 0%, rgba(99,40,82,1) 100%);*/
 	z-index:-10;
-	background-image: url("../Iconos/home2.jpeg");
+	background-image: url("../Iconos/home2.png");
 	background-size:100% 100% ;
 }
 /* clases de fullpage js >flechas de slide*/
@@ -73,17 +73,19 @@ footer{
 }
 .empresa{
 position:relative;
-left:44vmax;
-top:6vmax;
+left:45vmax;
+top:11vmax;
+
 
 }
 .Nempresa>p{
-	font-size:100px;
+	font-family:French Script MT;
+	font-size:6vmax;
 	font-weight:bold;
 	position:relative;
 	display:inline-block;
-	left:37vmax;
-	top:2vmax;
+	left:41vmax;
+	top:4vmax;
 }
 
 .icon-instagram{
@@ -91,8 +93,8 @@ top:6vmax;
 	font-weight:bold;
 	position:relative;
 	display:inline-block;
-	left:46vmax;
-	top:-3.2vmax;
+	left:47vmax;
+	top:-3vmax;
 
 }
 
@@ -101,8 +103,29 @@ top:6vmax;
 	font-weight:bold;
 	position:relative;
 	display:inline-block;
-	left:50vmax;
-	top:-6vmax;
+	left:51vmax;
+	top:-5.9vmax;
+	color: black;
+
+}
+
+.icon-pinterest{
+ font-size:2vmax;
+	font-weight:bold;
+	position:relative;
+	display:inline-block;
+	left:54vmax;
+	top:-6.3vmax;
+
+}
+
+.icon-facebook{
+ font-size:2vmax;
+	font-weight:bold;
+	position:relative;
+	display:inline-block;
+	left:43vmax;
+	top:-6.3vmax;
 
 }
 
@@ -145,8 +168,8 @@ font-size:25px;
 .icono-instagram{
 	display:inline-block;
 	position:relative;
-	bottom:-20vmax;
-	left:45vmax;
+	top:18vmax;
+	left:40vmax;
 	
 
 
@@ -172,17 +195,17 @@ font-size:25px;
 }
 */
 .icono-instagram .icon-instagram{
-	font-size:100px;
+	font-size:8vmax;
 }
 .icono-correo{
 	display:inline-block;
 	position:relative;
-	bottom:-16vmax;
-	left:-1vmax;
+	top:14vmax;
+	right:4vmax;
 }
 
 .icono-correo .icon-gmail{
-	font-size:100px;
+	font-size:8vmax;
 }
 
 
@@ -204,16 +227,15 @@ ul,ol{
  	left:20vmax;
 	}
 .nav li a{
-
 	font-weight: bold;
 	font-family:"ink free";
 	font-size: 2vmax;
-	background-color: #EC7063 ;
+	background-color: #74B2E8 ;
 	color:#212F3C   ;        /* colocamos color de fuente */
 	text-decoration:none; /* quitamos el subrayado que viene ya predeterminado */
 	padding:1vmax 1vmax; /* le implementamos el tamaño de relleno de los cuadros */
 	display:block;/*para que no se peguen los elementos los cuales venian en linea predeterminados */
-	border:#9F4A42  0.2vmax solid;/* bordes en el menu */ 
+	border:#17173A  0.2vmax solid;/* bordes en el menu */ 
 }
 
 

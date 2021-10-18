@@ -1,5 +1,5 @@
 	body{
-	 background-image: url(../Iconos/fondoparatodas.jpeg);
+	 background-image: url("../Iconos/fondoparatodas.png");
 	 background-size:100% 100% ;
 	 background-repeat: no-repeat;
 	 background-attachment: fixed;
@@ -30,16 +30,15 @@ ul,ol{
  	left:20vmax;
 	}
 .nav li a{
-
 	font-weight: bold;
 	font-family:"ink free";
 	font-size: 2vmax;
-	background-color: #EC7063 ;
+	background-color: #74B2E8 ;
 	color:#212F3C   ;        /* colocamos color de fuente */
 	text-decoration:none; /* quitamos el subrayado que viene ya predeterminado */
 	padding:1vmax 1vmax; /* le implementamos el tamaño de relleno de los cuadros */
 	display:block;/*para que no se peguen los elementos los cuales venian en linea predeterminados */
-	border:#9F4A42  0.2vmax solid;/* bordes en el menu */ 
+	border:#17173A  0.2vmax solid;/* bordes en el menu */ 
 }
 
 
@@ -69,7 +68,7 @@ ul,ol{
 .flechita
 {
 	position: fixed;
-	background-color: #ff7251 ;
+	background-color: #919DDF ;
 	opacity: 100%;
 	top: 1vmax;
 	right: 93.5vmax;
@@ -141,7 +140,7 @@ height: 15vmax;
 .caja2
 {
 
-	background-color: #ffca7b  ;
+	background-color: #919DDF  ;
 	opacity: 100%;
 	position: relative;
 	top: -17vmax;
@@ -157,7 +156,7 @@ height: 15vmax;
 
 .caja1
 {
-	background-color: #ffca7b  ;
+	background-color: #919DDF  ;
 	opacity: 100%;
 	position: relative;
 	top: -19vmax;
@@ -172,7 +171,7 @@ height: 15vmax;
 
 .caja3
 {
-	background-color: #ffca7b  ;
+	background-color: #919DDF  ;
 	opacity: 100%;
 	position: relative;
 	top: -15vmax;

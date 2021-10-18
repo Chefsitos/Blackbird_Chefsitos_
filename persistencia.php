@@ -22,12 +22,12 @@ function almacenar_usuario($usuario){
 echo coneccion_bd()->errorInfo()[2];
 return null;
 }
-
+/*
 //persistencia recuperar_usuarios
 function recuperar_usuarios(){
 	$usuarios=[];
 	$sql="select nombreu from usuarios  order by nombreu ";}
-/*function recuperar_usuario($codigou){
+function recuperar_usuario($codigou){
 //$usuarios = [];
 $sql = "select nombreu from usuarios  where nombreu='%s ' and codigou='1'";
 

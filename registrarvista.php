@@ -27,7 +27,7 @@
          <div class="input-contenedor">
          <i class="fas fa-envelope icon"></i>
          <input type="text" placeholder="Correo Electronico" name="Correo"> 
-         
+
          </div>
          
          <div class="input-contenedor">
