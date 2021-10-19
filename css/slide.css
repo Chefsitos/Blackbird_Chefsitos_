@@ -20,10 +20,12 @@ header{
 }
 
 .uno {
-/*background-image: url("../Iconos/virginia.jpeg");
+background-image: url("../Iconos/home3.png");
 background-size:100% 100%;
-	 background-repeat: no-repeat;*/
+	 background-repeat: no-repeat;
+	 /*
 	 background:pink;
+	 */
 	z-index:-10;
 }
 
@@ -197,16 +199,23 @@ font-size:25px;
 .icono-instagram .icon-instagram{
 	font-size:8vmax;
 }
-.icono-correo{
+.icono-twitter{
 	display:inline-block;
 	position:relative;
-	top:14vmax;
-	right:4vmax;
+	top:18vmax;
+left: -50vmax;
+}
+.icono-instagram{
+	display:inline-block;
+	position:relative;
+	top:18vmax;
+ right: 2vmax;
 }
 
-.icono-correo .icon-gmail{
+.icono-twitter .icon-twitter{
 	font-size:8vmax;
 }
+
 
 
 /* estilos para nuestro menu principal"nav" */

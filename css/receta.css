@@ -68,7 +68,7 @@ ul,ol{
 .flechita
 {
 	position: fixed;
-	background-color: #919DDF ;
+	background-color: #A0CAFF ;
 	opacity: 100%;
 	top: 1vmax;
 	right: 93.5vmax;
@@ -88,8 +88,8 @@ height: 5vmax;
 	z-index: 100;
 	position: relative;
 	opacity: 100%;
-	top: 11vmax;
-	right: -74vmax;
+	top: 9vmax;
+	right: -75vmax;
 	width : 5vmax;
 	height: 5vmax; 
 	border-radius: 0.5vmax;
@@ -106,8 +106,8 @@ height: 15vmax;
 	z-index: 100;
 	position: relative;
 	opacity: 100%;
-	top: 22vmax;
-	right: -56vmax;
+	top: 19vmax;
+	right: -75vmax;
 	width : 5vmax;
 	height: 5vmax; 
 	border-radius: 0.5vmax;
@@ -124,7 +124,7 @@ height: 15vmax;
 	z-index: 100;
 	position: relative;
 	opacity: 100%;
-	top: 57vmax;
+	top: 54vmax;
 	right: -74vmax;
 	width : 5vmax;
 	height: 5vmax; 
@@ -140,47 +140,47 @@ height: 15vmax;
 .caja2
 {
 
-	background-color: #919DDF  ;
+	background-color: #D1E5FF  ;
 	opacity: 100%;
 	position: relative;
-	top: -17vmax;
-	right: -31vmax;
-	width : 34vmax;
+	top: -13vmax;
+	right: -10vmax;
+	width : 80vmax;
 	height: 35vmax; 
-	border-radius: 2vmax;
+	border-radius: 1vmax;
 	font-size: 2.5vmax;
-	font-family: lucida handwriting;
+	font-family: century gothic;
 	text-align: center;
 
 }
 
 .caja1
 {
-	background-color: #919DDF  ;
+	background-color: #D1E5FF  ;
 	opacity: 100%;
 	position: relative;
-	top: -19vmax;
-	right: -13.5vmax;
-	width : 70vmax;
+	top: -15vmax;
+	right: -10vmax;
+	width : 80vmax;
 	height: 10vmax; 
-	border-radius: 2vmax;
+	border-radius: 1vmax;
 	font-size: 3vmax;
-	font-family: lucida handwriting;
+	font-family: century gothic;
 	text-align: center;
 }
 
 .caja3
 {
-	background-color: #919DDF  ;
+	background-color: #D1E5FF  ;
 	opacity: 100%;
 	position: relative;
-	top: -15vmax;
-	right: -13.5vmax;
-	width : 70vmax;
+	top: -11vmax;
+	right: -10vmax;
+	width : 80vmax;
 	height: 35vmax; 
-	border-radius: 2vmax;
+	border-radius: 1vmax;
 	font-size: 2.5vmax;
-	font-family: lucida handwriting;
+	font-family: century gothic;
 	text-align: center;
 }
 
@@ -188,23 +188,23 @@ height: 15vmax;
 .textoing
 {
 	position: relative;
-	top: -81vmax;
+	top: -76vmax;
 	right: -35vmax;
 	width : 27vmax;
 	height: 30vmax; 
-	font-size: 1.6vmax;
-	font-family: Ink free;
+	font-size: 2vmax;
+	font-family: century gothic;
 }
 
 .textoprep
 {
 	position: relative;
-	top: -71vmax;
+	top: -66vmax;
 	right: -18vmax;
 	width : 60vmax;
 	height: 30vmax; 
-	font-size: 1.6vmax;
-	font-family: Ink free;
+	font-size: 2vmax;
+	font-family: century gothic;
 }
 
 .imagenReceta
@@ -212,7 +212,7 @@ height: 15vmax;
 	z-index: 100;
 	position: relative;
 	opacity: 100%;
-	top: -70vmax;
+	top: -65vmax;
 	right: -28vmax;
 	width : 40vmax;
 	height: 26vmax; 
@@ -223,9 +223,9 @@ height: 15vmax;
 {
 width : 100%;
 height: 100%;
-border-radius: 1.5vmax;
+border-radius: 1vmax;
 }
-
+/*
 .iconopisadaz
 {
 width: 15vmax;
@@ -243,7 +243,7 @@ height: 20vmax;
 	height: 7vmax; 
 	border-radius: 0.5vmax;
 }
-
+*/
 .iconoflecha
 {
 width: 15vmax;
@@ -255,7 +255,7 @@ height: 20vmax;
 	z-index: 100;
 	position: relative;
 	opacity: 100%;
-	top: 77vmax;
+	top: 84vmax;
 	right: -16vmax;
 	width : 5vmax;
 	height: 5vmax; 
